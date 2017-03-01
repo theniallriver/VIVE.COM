@@ -23,8 +23,9 @@ import { AccessoriesComponent }      from './accessories/accessories.component';
 import { CartComponent }             from './cart/cart.component'
 import { ExperiencesComponent}       from './experiences/experiences.component';
 import { PCSComponent }              from './pcs/pcs.component'
-import { PCCarouselComponent }        from './pcs/pc-carousel/pc-carousel.component'
-import { PCCarousel2Component }        from './pcs/pc-carousel2/pc-carousel2.component'
+import { PCCarouselComponent }       from './pcs/pc-carousel/pc-carousel.component'
+import { PCCarousel2Component }      from './pcs/pc-carousel2/pc-carousel2.component'
+import { InstallationComponent }     from './installation/installation.component'   
 @NgModule({
   imports: [
     BrowserModule,
@@ -38,6 +39,7 @@ import { PCCarousel2Component }        from './pcs/pc-carousel2/pc-carousel2.com
       {path:'accessories', component:AccessoriesComponent},
       {path: 'experiences', component:ExperiencesComponent},
       {path: 'pcs', component: PCSComponent},
+      {path: 'installation', component: InstallationComponent},
       {path: '', redirectTo:'home', pathMatch:'full'},
     ],
       {useHash: true} )],
@@ -55,6 +57,7 @@ import { PCCarousel2Component }        from './pcs/pc-carousel2/pc-carousel2.com
     PCCarousel2Component,
     AccessoriesComponent,
     ExperiencesComponent,
+    InstallationComponent,
     HomeCarouselComponent,
     HomeCarousel2Component,
     ProductCarouselComponent,
