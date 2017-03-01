@@ -29,6 +29,7 @@ var pcs_component_1 = require("./pcs/pcs.component");
 var pc_carousel_component_1 = require("./pcs/pc-carousel/pc-carousel.component");
 var pc_carousel2_component_1 = require("./pcs/pc-carousel2/pc-carousel2.component");
 var installation_component_1 = require("./installation/installation.component");
+var enterprise_component_1 = require("./enterprise/enterprise.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -49,6 +50,7 @@ AppModule = __decorate([
                 { path: 'experiences', component: experiences_component_1.ExperiencesComponent },
                 { path: 'pcs', component: pcs_component_1.PCSComponent },
                 { path: 'installation', component: installation_component_1.InstallationComponent },
+                { path: 'enterprise', component: enterprise_component_1.EnterpriseComponent },
                 { path: '', redirectTo: 'home', pathMatch: 'full' },
             ], { useHash: true })
         ],
@@ -61,6 +63,7 @@ AppModule = __decorate([
             footer_component_1.FooterComponent,
             product_component_1.ProductComponent,
             account_component_1.AccountComponent,
+            enterprise_component_1.EnterpriseComponent,
             pc_carousel_component_1.PCCarouselComponent,
             product_nav_component_1.ProductNavComponent,
             pc_carousel2_component_1.PCCarousel2Component,

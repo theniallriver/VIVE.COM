@@ -26,6 +26,7 @@ import { PCSComponent }              from './pcs/pcs.component'
 import { PCCarouselComponent }       from './pcs/pc-carousel/pc-carousel.component'
 import { PCCarousel2Component }      from './pcs/pc-carousel2/pc-carousel2.component'
 import { InstallationComponent }     from './installation/installation.component'   
+import { EnterpriseComponent }       from './enterprise/enterprise.component'
 @NgModule({
   imports: [
     BrowserModule,
@@ -40,6 +41,7 @@ import { InstallationComponent }     from './installation/installation.component
       {path: 'experiences', component:ExperiencesComponent},
       {path: 'pcs', component: PCSComponent},
       {path: 'installation', component: InstallationComponent},
+      {path: 'enterprise', component: EnterpriseComponent},
       {path: '', redirectTo:'home', pathMatch:'full'},
     ],
       {useHash: true} )],
@@ -52,6 +54,7 @@ import { InstallationComponent }     from './installation/installation.component
     FooterComponent,
     ProductComponent,
     AccountComponent,
+    EnterpriseComponent,
     PCCarouselComponent,
     ProductNavComponent,
     PCCarousel2Component,
