@@ -1,0 +1,103 @@
+.banner {
+  box-sizing: border-box;
+  background-image: url("app/assets/images/vivex-banner.jpg");
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  text-align: center; }
+  .banner img {
+    clear: both;
+    margin-top: 20px; }
+  .banner .buttons {
+    width: 100vw;
+    margin-top: 40px;
+    text-align: center; }
+    .banner .buttons button {
+      margin: 15px;
+      padding: 0 50px; }
+    .banner .buttons .btn2 {
+      background-color: #fe9e32;
+      border-color: #fe9e32; }
+
+.btmbnr {
+  box-sizing: border-box;
+  background-image: url("app/assets/images/spacex.jpg");
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-top: 100px; }
+
+.content {
+  padding: 100px 15vw;
+  color: #3c3c3c; }
+
+.content-bottom {
+  text-align: center;
+  color: #3c3c3c;
+  box-sizing: border-box; }
+  .content-bottom h1 {
+    margin: 100px 0; }
+  .content-bottom .grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 10vw; }
+    .content-bottom .grid div {
+      width: 25%;
+      margin-bottom: 80px;
+      text-align: center;
+      padding: 0 15px; }
+      .content-bottom .grid div p {
+        font-family: "fakt";
+        font-size: 18px;
+        line-height: 29px;
+        color: #00b5e2; }
+      .content-bottom .grid div span {
+        height: 150px;
+        width: 150px;
+        background-image: url("app/assets/images/vivexpins.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+        clear: both; }
+      .content-bottom .grid div .icon1 {
+        background-position: 0 -150px; }
+      .content-bottom .grid div .icon2 {
+        background-position: 0 -300px; }
+      .content-bottom .grid div .icon3 {
+        background-position: 0 -450px; }
+      .content-bottom .grid div .icon4 {
+        background-position: 0 0; }
+      .content-bottom .grid div .icon5 {
+        background-position: 0 -600px; }
+      .content-bottom .grid div .icon6 {
+        background-position: 0 -750px; }
+
+p {
+  font-family: "fakt";
+  font-size: 17px;
+  line-height: 26px; }
+
+h1 {
+  font-family: "fakt";
+  font-size: 44px;
+  line-height: 48px; }
+  h1 strong {
+    font-family: "fakt-bold"; }
+
+.map {
+  box-sizing: border-box;
+  background-image: url("app/assets/images/worldmap.jpg");
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  text-align: center; }
+  .map button {
+    margin-top: 600px; }

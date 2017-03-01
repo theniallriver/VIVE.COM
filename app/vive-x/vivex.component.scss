@@ -1,0 +1,127 @@
+ .banner {
+     box-sizing: border-box;
+     background-image: url('app/assets/images/vivex-banner.jpg');
+     width: 100vw;
+     background-position: center;
+     background-size: cover;
+     height: 600px;
+     text-align: center;
+     img {
+         clear: both;
+         margin-top: 20px;
+     }
+     .buttons {
+         width: 100vw;
+         margin-top: 40px;
+         text-align: center;
+         button {
+             margin: 15px;
+             padding: 0 50px;
+         }
+         .btn2 {
+             background-color: #fe9e32;
+             border-color: #fe9e32;
+         }
+     }
+ }
+ 
+ .btmbnr {
+     box-sizing: border-box;
+     background-image: url('app/assets/images/spacex.jpg');
+     width: 100vw;
+     background-position: center;
+     background-size: cover;
+     height: 600px;
+     text-align: center;
+     color: white;
+     padding-top: 200px;
+     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+     margin-top: 100px;
+ }
+ 
+ .content {
+     padding: 100px 15vw;
+     color: #3c3c3c;
+ }
+ 
+ .content-bottom {
+     text-align: center;
+     color: #3c3c3c;
+     box-sizing: border-box;
+     h1 {
+         margin: 100px 0;
+     }
+     .grid {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         margin: 0 10vw;
+         div {
+             width: 25%;
+             margin-bottom: 80px;
+             text-align: center;
+             padding: 0 15px;
+             p {
+                 font-family: "fakt";
+                 font-size: 18px;
+                 line-height: 29px;
+                 color: #00b5e2;
+             }
+             span {
+                 height: 150px;
+                 width: 150px;
+                 background-image: url('app/assets/images/vivexpins.png');
+                 background-repeat: no-repeat;
+                 display: inline-block;
+                 clear: both;
+             }
+             .icon1 {
+                 background-position: 0 -150px;
+             }
+             .icon2 {
+                 background-position: 0 -300px;
+             }
+             .icon3 {
+                 background-position: 0 -450px;
+             }
+             .icon4 {
+                 background-position: 0 0;
+             }
+             .icon5 {
+                 background-position: 0 -600px;
+             }
+             .icon6 {
+                 background-position: 0 -750px;
+             }
+         }
+     }
+ }
+ 
+ p {
+     font-family: "fakt";
+     font-size: 17px;
+     line-height: 26px;
+ }
+ 
+ h1 {
+     font-family: "fakt";
+     font-size: 44px;
+     line-height: 48px;
+     strong {
+         font-family: "fakt-bold";
+     }
+ }
+ 
+ .map {
+     box-sizing: border-box;
+     background-image: url('app/assets/images/worldmap.jpg');
+     width: 100vw;
+     background-position: center;
+     background-size: cover;
+     height: 700px;
+     text-align: center;
+     button {
+         margin-top: 600px;
+     }
+ }

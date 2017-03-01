@@ -36,6 +36,7 @@ var orders_component_1 = require("./orders/orders.component");
 var developers_component_1 = require("./developers/developers.component");
 var dev_nav_component_1 = require("./developers-nav/dev-nav.component");
 var certification_component_1 = require("./certification/certification.component");
+var vivex_component_1 = require("./vive-x/vivex.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -48,17 +49,18 @@ AppModule = __decorate([
             forms_1.FormsModule,
             http_1.HttpModule,
             router_1.RouterModule.forRoot([
-                { path: 'home', component: home_component_1.HomeComponent, },
+                { path: 'pcs', component: pcs_component_1.PCSComponent },
+                { path: 'cart', component: cart_component_1.CartComponent },
+                { path: 'home', component: home_component_1.HomeComponent },
+                { path: 'vivex', component: vivex_component_1.VivexComponent },
+                { path: 'orders', component: orders_component_1.OrdersComponent },
                 { path: 'product', component: product_component_1.ProductComponent },
                 { path: 'account', component: account_component_1.AccountComponent },
-                { path: 'cart', component: cart_component_1.CartComponent },
+                { path: 'developers', component: developers_component_1.DevelopersComponent },
+                { path: 'enterprise', component: enterprise_component_1.EnterpriseComponent },
                 { path: 'accessories', component: accessories_component_1.AccessoriesComponent },
                 { path: 'experiences', component: experiences_component_1.ExperiencesComponent },
-                { path: 'pcs', component: pcs_component_1.PCSComponent },
                 { path: 'installation', component: installation_component_1.InstallationComponent },
-                { path: 'enterprise', component: enterprise_component_1.EnterpriseComponent },
-                { path: 'orders', component: orders_component_1.OrdersComponent },
-                { path: 'developers', component: developers_component_1.DevelopersComponent },
                 { path: 'certification', component: certification_component_1.CertificationComponent },
                 { path: '', redirectTo: 'home', pathMatch: 'full' },
             ], { useHash: true })
@@ -69,6 +71,7 @@ AppModule = __decorate([
             pcs_component_1.PCSComponent,
             home_component_1.HomeComponent,
             cart_component_1.CartComponent,
+            vivex_component_1.VivexComponent,
             dev_nav_component_1.DevNavComponent,
             footer_component_1.FooterComponent,
             orders_component_1.OrdersComponent,
