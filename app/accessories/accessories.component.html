@@ -1,0 +1,17 @@
+<product-nav></product-nav>
+<div class="accessory-page">
+    <div class="banner">
+        <h1><strong>VIVE</strong> ACCESSORIES</h1>
+    </div>
+    <div class="products">
+        <div class="product-box" *ngFor='let product of products'>
+            <img src="{{product?.product_img}}" alt="">
+            <h1 class="name">{{ product?.product_name }}</h1>
+            <p class='price'>{{ product?.product_price | currency:'USD': true}}</p>
+            <input type="number" min="1" [(ngModel)]="quantity">
+            <button class="button" (click)="addToCart(product?.product_id, quantity)">Add to Cart</button>
+        </div>
+    </div>
+    <div class="bottom">
+    </div>
+</div>

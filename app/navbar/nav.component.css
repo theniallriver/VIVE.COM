@@ -1,0 +1,131 @@
+.vive-nav {
+  z-index: 1000 !important;
+  position: relative; }
+  .vive-nav .nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #111820;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0; }
+    .vive-nav .nav .header {
+      width: 1240px;
+      text-align: center;
+      position: relative;
+      margin: 0 auto;
+      display: block;
+      height: 70px;
+      font-weight: 400;
+      font-family: 'fakt', Helvetica, Arial;
+      position: fixed;
+      display: block;
+      top: 0;
+      left: 0;
+      right: 0;
+      clear: both;
+      height: 70px;
+      background-color: #111820;
+      height: 70px; }
+      .vive-nav .nav .header .logo {
+        display: inline-block;
+        float: left;
+        height: 70px; }
+        .vive-nav .nav .header .logo .vive-logo {
+          margin: 25px 0 20px 10px;
+          width: 85px;
+          padding-right: 15px; }
+        .vive-nav .nav .header .logo .vive-triangle {
+          padding-bottom: 15px;
+          width: 35px; }
+      .vive-nav .nav .header .nav-links div {
+        height: 66px;
+        display: inline-block;
+        text-align: center;
+        margin: 0 15px;
+        float: left; }
+        .vive-nav .nav .header .nav-links div a span {
+          display: inline-block;
+          text-decoration: none;
+          list-style: none;
+          font-size: 18px;
+          color: #ccc;
+          float: left;
+          padding: 28px 0 0 0;
+          border-bottom: 4px solid transparent;
+          line-height: 20px; }
+      .vive-nav .nav .header .nav-links div:hover {
+        border-bottom: solid 4px #00b5E2; }
+        .vive-nav .nav .header .nav-links div:hover a span {
+          color: white; }
+    .vive-nav .nav .profile-picture {
+      background-color: transparent;
+      height: 50px;
+      width: 50px;
+      float: left;
+      margin: 8px 10px; }
+      .vive-nav .nav .profile-picture img {
+        height: 50px;
+        width: 50px;
+        outline: none;
+        border-color: black;
+        border-radius: 100%; }
+      .vive-nav .nav .profile-picture img:hover {
+        border-color: #ccc;
+        border-radius: 100%;
+        border-width: 2px;
+        border-style: solid; }
+    .vive-nav .nav .user-menu {
+      background-color: #EDEFF4;
+      display: block;
+      width: 175px;
+      position: absolute;
+      border-radius: 5px;
+      right: 9vw;
+      top: 70px;
+      z-index: 300; }
+      .vive-nav .nav .user-menu a {
+        float: left;
+        width: 100%;
+        clear: both;
+        text-align: left;
+        padding: 20px 30px;
+        text-decoration: none;
+        color: #888;
+        font-size: 18px; }
+      .vive-nav .nav .user-menu a:hover {
+        color: #00b5e2; }
+    .vive-nav .nav .htc-logo {
+      display: inline-block;
+      height: 22px;
+      float: left;
+      margin: 24px 0 40px 15px; }
+  .vive-nav .cart-container {
+    position: relative;
+    z-index: 200;
+    display: flex;
+    height: 50px;
+    padding: 0 30px;
+    background-color: #41464d;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: #fff;
+    top: 70px;
+    right: -40vw; }
+
+button {
+  padding: 0 20px;
+  margin: 18px 30px 0 10px;
+  border: 2px solid #00c9fb;
+  border-radius: 21px;
+  height: 36px;
+  line-height: 36px;
+  background-color: transparent;
+  color: #00b5e2;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center; }

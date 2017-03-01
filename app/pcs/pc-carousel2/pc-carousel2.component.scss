@@ -1,0 +1,34 @@
+.pc-carousel2 {
+    width: 100%;
+    height: 400px;
+    .b {
+        box-sizing: border-box;
+        height: 400px;
+        padding: 50px 10vw;
+        h1 {
+            font-family: 'fakt';
+            font-size: 36px;
+            color: #3c3c3c;
+            strong {
+                font-family: "fakt-bold";
+            }
+        }
+        p {
+            font-family: "fakt-blond";
+            font-size: 16px;
+            line-height: 27px;
+            color: #3c3c3c;
+            width: 400px;
+        }
+    }
+    .b1 {
+        background-image: url('app/assets/images/nvidia.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .b2 {
+        p {
+            width: 500px;
+        }
+    }
+}

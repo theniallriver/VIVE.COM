@@ -1,0 +1,85 @@
+.carousel {
+    box-sizing: border-box;
+    width: 70vw;
+    height: 700px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 100px 0;
+    .h1 {
+        background-image: url('app/assets/images/product-comfort-01.png')
+    }
+    .h4 {
+        background-image: url('app/assets/images/product-comfort-02.png')
+    }
+    .h5 {
+        background-image: url('app/assets/images/product-comfort-03.png')
+    }
+    .h8 {
+        background-image: url('app/assets/images/product-comfort-04.png')
+    }
+    .h9 {
+        background-image: url('app/assets/images/product-comfort-05.png')
+    }
+    .h12 {
+        background-image: url('app/assets/images/product-comfort-06.png')
+    }
+    .c2 {
+        background-image: url('app/assets/images/product-controller-01.jpg')
+    }
+    .c3 {
+        background-image: url('app/assets/images/product-controller-02.jpg')
+    }
+    .c6 {
+        background-image: url('app/assets/images/product-controller-03.jpg')
+    }
+    .c7 {
+        background-image: url('app/assets/images/product-basestation-01.png')
+    }
+    .c10 {
+        background-image: url('app/assets/images/product-basestation-02.png')
+    }
+    .d1 {
+        background-image: url('app/assets/images/product-accessory-strap.jpg')
+    }
+    .d4 {
+        background-image: url('app/assets/images/product-accessory-tracker.jpg')
+    }
+}
+
+.underline {
+    display: block;
+    width: 50px;
+    height: 1px;
+    margin: 20px auto 25px;
+    background-color: #9a9da2;
+}
+
+.half {
+    width: 34vw;
+    height: 700px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    margin: 5px;
+    background-color: #111820;
+    color: white;
+    img {
+        margin: 45% auto 25px auto;
+    }
+    h1 {
+        margin: 0 25% 0 25%;
+        font-family: 'fakt-blond';
+        font-size: 34px;
+        span {
+            font-family: 'fakt-bold'
+        }
+    }
+    p {
+        margin: 0 25%;
+        font-size: 18px;
+        font-family: 'fakt-blond'
+    }
+}

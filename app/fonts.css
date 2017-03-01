@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "fakt";
+    src: url("app/assets/fonts/FaktPro-Normal.woff") format('woff');
+}
+
+@font-face {
+    font-family: "fakt-bold";
+    src: url("app/assets/fonts/FaktPro-Bold.woff") format('woff');
+}
+
+@font-face {
+    font-family: "fakt-blond";
+    src: url("app/assets/fonts/FaktPro-Blond.woff") format('woff');
+}

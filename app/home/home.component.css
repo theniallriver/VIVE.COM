@@ -1,0 +1,256 @@
+.home-comp div {
+  position: relative; }
+  .home-comp div .video-box {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 500px;
+    color: white; }
+    .home-comp div .video-box h1 {
+      font-family: "fakt";
+      font-size: 34px; }
+      .home-comp div .video-box h1 strong {
+        font-family: "fakt-bold"; }
+    .home-comp div .video-box p {
+      font-family: "fakt-blond";
+      font-size: 17px;
+      line-height: 28px; }
+
+.home-comp .carousel2 {
+  background-image: url("app/assets/images/another-carousel.jpg"); }
+
+.home-comp .banners {
+  width: 100%; }
+  .home-comp .banners .banner {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'fakt-bold';
+    padding: 50px 5px 5px 5px; }
+    .home-comp .banners .banner .inner-banner {
+      height: 200px;
+      width: 25vw;
+      float: left;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center; }
+    .home-comp .banners .banner .bnr5 {
+      background-image: url("app/assets/images/viveport.jpg"); }
+      .home-comp .banners .banner .bnr5 p {
+        padding-top: 30px;
+        color: black; }
+    .home-comp .banners .banner .bnr6 {
+      background-image: url("app/assets/images/knockout-league.jpg"); }
+      .home-comp .banners .banner .bnr6 p {
+        padding-top: 30px;
+        color: white; }
+  .home-comp .banners .bnr1 {
+    background-image: url("app/assets/images/vive-girl.jpg"); }
+  .home-comp .banners .bnr2 {
+    background-image: url("app/assets/images/vive-tracker.jpg"); }
+  .home-comp .banners .bnr3 {
+    background-image: url("app/assets/images/audio-strap.jpg"); }
+  .home-comp .banners .bnr4 {
+    float: left;
+    margin: 0;
+    padding-top: 0; }
+
+.home-comp .explore {
+  clear: both;
+  margin: 0 10vw; }
+  .home-comp .explore div {
+    float: left; }
+  .home-comp .explore .explore-1 {
+    margin-right: 3px;
+    width: 27.5%; }
+    .home-comp .explore .explore-1 div {
+      background-image: url("app/assets/images/news1.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 350px;
+      color: white;
+      font-family: "fakt";
+      font-size: 22px;
+      line-height: 29px; }
+      .home-comp .explore .explore-1 div p {
+        vertical-align: bottom;
+        position: relative;
+        bottom: -200px;
+        padding: 0 20px; }
+    .home-comp .explore .explore-1 h1 {
+      font-family: "fakt-blond";
+      color: #3c3c3c;
+      font-size: 34px;
+      margin: 0;
+      padding-bottom: 10px; }
+      .home-comp .explore .explore-1 h1 b {
+        font-family: "fakt-bold"; }
+  .home-comp .explore .explore-2 {
+    width: 42.5%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-size: 22px;
+    font-family: "fakt";
+    margin-right: 3px; }
+    .home-comp .explore .explore-2 .explore2-1 {
+      background-image: url("app/assets/images/news2.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 292px;
+      width: 100%;
+      position: relative;
+      margin-bottom: 3px; }
+      .home-comp .explore .explore-2 .explore2-1 p {
+        position: absolute;
+        bottom: 0;
+        padding-left: 20px; }
+    .home-comp .explore .explore-2 .explore2-2 {
+      background-image: url("app/assets/images/news3.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 147px;
+      position: relative; }
+      .home-comp .explore .explore-2 .explore2-2 p {
+        position: absolute;
+        bottom: 0;
+        padding-left: 20px; }
+  .home-comp .explore .explore-3 {
+    width: 22%;
+    background-color: #e6e6e6;
+    height: 362px;
+    font-size: 19px;
+    line-height: 31px;
+    color: #3c3c3c;
+    font-weight: lighter;
+    padding: 40px 40px;
+    float: left; }
+    .home-comp .explore .explore-3 h3 {
+      font-family: 'fakt-blond';
+      margin-bottom: 0; }
+    .home-comp .explore .explore-3 strong {
+      font-family: Helvetica; }
+
+.home-comp .vr-content {
+  clear: both;
+  text-align: center;
+  padding: 100px 0 25px 0; }
+  .home-comp .vr-content h1 {
+    font-family: "fakt-blond";
+    font-size: 34px;
+    color: #3c3c3c; }
+    .home-comp .vr-content h1 strong {
+      font-family: "fakt-bold"; }
+
+.home-comp .vive-near-you {
+  background-image: url("app/assets/images/map.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 550px;
+  color: white;
+  padding: 100px 20vw;
+  box-sizing: border-box;
+  text-align: center; }
+  .home-comp .vive-near-you h1 {
+    font-family: "fakt";
+    font-size: 34px; }
+    .home-comp .vive-near-you h1 strong {
+      font-family: 'fakt-bold'; }
+  .home-comp .vive-near-you p {
+    font-family: "fakt-blond";
+    font-size: 16px;
+    line-height: 27px;
+    color: #e9eaeb; }
+    .home-comp .vive-near-you p span {
+      margin-bottom: 50px; }
+  .home-comp .vive-near-you div {
+    text-align: left;
+    width: 50%;
+    float: left; }
+    .home-comp .vive-near-you div h2 {
+      font-family: "fakt";
+      font-size: 16px;
+      line-height: 19px; }
+    .home-comp .vive-near-you div a {
+      color: white; }
+      .home-comp .vive-near-you div a p {
+        margin: 0;
+        line-height: 20px; }
+    .home-comp .vive-near-you div p {
+      font-size: 14px;
+      weight: 100; }
+
+.home-comp .email-form {
+  background-color: #00b5e2;
+  color: white;
+  padding: 100px 10vw 80px 10vw;
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box; }
+  .home-comp .email-form .email-col {
+    float: left;
+    width: 26vw;
+    text-align: center; }
+    .home-comp .email-form .email-col .region,
+    .home-comp .email-form .email-col input[type="text"] {
+      margin: 10px;
+      width: 300px;
+      border: none;
+      border-bottom: solid 2px white;
+      transition: border 0.3s;
+      background-color: #00b5e2;
+      color: white;
+      text-align: left; }
+    .home-comp .email-form .email-col input:placeholder-shown {
+      color: white; }
+  .home-comp .email-form .white {
+    background-color: white;
+    color: #00b5e2;
+    padding: 0 70px;
+    margin-top: 10px; }
+
+.home-comp h1 {
+  padding: 0;
+  margin: 0;
+  font-family: "fakt-blond";
+  font-size: 32px;
+  line-height: 41px; }
+  .home-comp h1 strong {
+    font-family: "fakt-bold"; }
+
+.image-grid {
+  width: 80%; }
+  .image-grid img {
+    width: 12%; }
+
+.partners {
+  font-family: "fakt-blond";
+  text-align: center;
+  margin: 100px 20vw;
+  color: #3c3c3c;
+  line-height: 39px; }
+  .partners h1 {
+    font-size: 34px; }
+    .partners h1 strong {
+      font-family: "fakt-bold"; }
+  .partners p {
+    font-size: 18px;
+    line-height: 27px; }
+  .partners .images {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .partners .images img {
+      height: 30px; }
+
+video {
+  margin-bottom: -4px; }

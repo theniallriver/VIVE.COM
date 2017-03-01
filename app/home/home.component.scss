@@ -1,0 +1,312 @@
+.home-comp {
+    div {
+        position: relative;
+        .video-box {
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            top: 500px;
+            color: white;
+            h1 {
+                font-family: "fakt";
+                font-size: 34px;
+                strong {
+                    font-family: "fakt-bold"
+                }
+            }
+            p {
+                font-family: "fakt-blond";
+                font-size: 17px;
+                line-height: 28px;
+            }
+        }
+    }
+    .carousel2 {
+        background-image: url("app/assets/images/another-carousel.jpg")
+    }
+    .banners {
+        width: 100%;
+        .banner {
+            box-sizing: border-box;
+            float: left;
+            width: 25%;
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            font-family: 'fakt-bold';
+            padding: 50px 5px 5px 5px;
+            .inner-banner {
+                height: 200px;
+                width: 25vw;
+                float: left;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                text-align: center;
+            }
+            .bnr5 {
+                p {
+                    padding-top: 30px;
+                    color: black;
+                }
+                background-image: url('app/assets/images/viveport.jpg');
+            }
+            .bnr6 {
+                p {
+                    padding-top: 30px;
+                    color: white;
+                }
+                background-image: url('app/assets/images/knockout-league.jpg')
+            }
+        }
+        .bnr1 {
+            background-image: url("app/assets/images/vive-girl.jpg")
+        }
+        .bnr2 {
+            background-image: url("app/assets/images/vive-tracker.jpg")
+        }
+        .bnr3 {
+            background-image: url("app/assets/images/audio-strap.jpg")
+        }
+        .bnr4 {
+            float: left;
+            margin: 0;
+            padding-top: 0;
+        }
+    }
+    .explore {
+        clear: both;
+        margin: 0 10vw;
+        div {
+            float: left;
+        }
+        .explore-1 {
+            margin-right: 3px;
+            width: 27.5%;
+            div {
+                background-image: url('app/assets/images/news1.jpg');
+                background-position: center;
+                background-size: cover;
+                height: 350px;
+                color: white;
+                font-family: "fakt";
+                font-size: 22px;
+                line-height: 29px;
+                p {
+                    vertical-align: bottom;
+                    position: relative;
+                    bottom: -200px;
+                    padding: 0 20px;
+                }
+            }
+            h1 {
+                font-family: "fakt-blond";
+                color: #3c3c3c;
+                font-size: 34px;
+                margin: 0;
+                padding-bottom: 10px;
+                b {
+                    font-family: "fakt-bold"
+                }
+            }
+        }
+        .explore-2 {
+            width: 42.5%;
+            display: inline-block;
+            vertical-align: top;
+            color: white;
+            font-size: 22px;
+            font-family: "fakt";
+            margin-right: 3px;
+            .explore2-1 {
+                background-image: url('app/assets/images/news2.jpg');
+                background-position: center;
+                background-size: cover;
+                height: 292px;
+                width: 100%;
+                position: relative;
+                margin-bottom: 3px;
+                p {
+                    position: absolute;
+                    bottom: 0;
+                    padding-left: 20px;
+                }
+            }
+            .explore2-2 {
+                background-image: url('app/assets/images/news3.jpg');
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                height: 147px;
+                position: relative;
+                p {
+                    position: absolute;
+                    bottom: 0;
+                    padding-left: 20px;
+                }
+            }
+        }
+        .explore-3 {
+            width: 22%;
+            background-color: #e6e6e6;
+            height: 362px;
+            font-size: 19px;
+            line-height: 31px;
+            color: #3c3c3c;
+            font-weight: lighter;
+            padding: 40px 40px;
+            float: left;
+            h3 {
+                font-family: 'fakt-blond';
+                margin-bottom: 0
+            }
+            strong {
+                font-family: Helvetica;
+            }
+        }
+    }
+    .vr-content {
+        clear: both;
+        text-align: center;
+        padding: 100px 0 25px 0;
+        h1 {
+            font-family: "fakt-blond";
+            font-size: 34px;
+            color: #3c3c3c;
+            strong {
+                font-family: "fakt-bold"
+            }
+        }
+    }
+    .vive-near-you {
+        background-image: url('app/assets/images/map.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 550px;
+        color: white;
+        padding: 100px 20vw;
+        box-sizing: border-box;
+        text-align: center;
+        h1 {
+            font-family: "fakt";
+            font-size: 34px;
+            strong {
+                font-family: 'fakt-bold';
+            }
+        }
+        p {
+            font-family: "fakt-blond";
+            font-size: 16px;
+            line-height: 27px;
+            color: #e9eaeb;
+            span {
+                margin-bottom: 50px;
+            }
+        }
+        div {
+            text-align: left;
+            width: 50%;
+            float: left;
+            h2 {
+                font-family: "fakt";
+                font-size: 16px;
+                line-height: 19px;
+            }
+            a {
+                color: white;
+                p {
+                    margin: 0;
+                    line-height: 20px;
+                }
+            }
+            p {
+                font-size: 14px;
+                weight: 100;
+            }
+        }
+    }
+    .email-form {
+        background-color: #00b5e2;
+        color: white;
+        padding: 100px 10vw 80px 10vw;
+        width: 100%;
+        height: 300px;
+        box-sizing: border-box;
+        .email-col {
+            float: left;
+            width: 26vw;
+            text-align: center;
+            .region,
+            input[type="text"] {
+                margin: 10px;
+                width: 300px;
+                border: none;
+                border-bottom: solid 2px white;
+                transition: border 0.3s;
+                background-color: #00b5e2;
+                color: white;
+                text-align: left;
+            }
+            input:placeholder-shown {
+                color: white;
+            }
+        }
+        .white {
+            background-color: white;
+            color: #00b5e2;
+            padding: 0 70px;
+            margin-top: 10px;
+        }
+    }
+    h1 {
+        padding: 0;
+        margin: 0;
+        font-family: "fakt-blond";
+        font-size: 32px;
+        line-height: 41px;
+        strong {
+            font-family: "fakt-bold"
+        }
+    }
+}
+
+.image-grid {
+    width: 80%;
+    img {
+        width: 12%;
+    }
+}
+
+.partners {
+    font-family: "fakt-blond";
+    text-align: center;
+    margin: 100px 20vw;
+    color: #3c3c3c;
+    line-height: 39px;
+    h1 {
+        font-size: 34px;
+        strong {
+            font-family: "fakt-bold"
+        }
+    }
+    p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .images {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        img {
+            height: 30px
+        }
+    }
+}
+
+video {
+    margin-bottom: -4px;
+}

@@ -1,0 +1,51 @@
+.accessory-page .banner {
+  width: 100vw;
+  background-image: url("app/assets/images/Accessory-Top.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  text-align: center; }
+  .accessory-page .banner h1 {
+    font-family: "fakt";
+    font-size: 34px;
+    line-height: 39px;
+    color: #3c3c3c;
+    padding-top: 200px;
+    margin-top: 0; }
+    .accessory-page .banner h1 strong {
+      font-family: "fakt-bold"; }
+
+.accessory-page .bottom {
+  clear: both; }
+
+.accessory-page .products {
+  width: 100%;
+  padding: 50px 10%; }
+  .accessory-page .products .product-box {
+    margin: 5%;
+    text-align: center;
+    box-sizing: border-box;
+    width: 31%;
+    padding: 2%;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    border: solid 1px #d2d2d2;
+    display: block;
+    height: 500px;
+    position: relative;
+    font-family: "fakt-blond";
+    float: left; }
+    .accessory-page .products .product-box img {
+      width: 250px; }
+    .accessory-page .products .product-box .price {
+      font-size: 20px;
+      line-height: 28px;
+      margin: 5% 0;
+      color: #666666; }
+    .accessory-page .products .product-box .name {
+      font-size: 24px;
+      min-height: 56px;
+      line-height: 28px;
+      margin-top: 29px;
+      text-align: center;
+      color: #3c3c3c; }

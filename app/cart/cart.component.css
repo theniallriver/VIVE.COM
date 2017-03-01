@@ -1,0 +1,29 @@
+img {
+  width: 300px; }
+
+h1,
+h2 {
+  text-align: center;
+  font-family: 'fakt';
+  color: #41464d; }
+
+.cart-container {
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .cart-container .cart {
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px;
+    height: 500px;
+    text-align: center;
+    float: left;
+    position: relative; }
+
+.button-red {
+  background-color: red;
+  bottom: 10px; }
+
+hr {
+  clear: both; }

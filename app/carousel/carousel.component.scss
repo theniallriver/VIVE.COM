@@ -1,0 +1,92 @@
+.top-carousel {
+    width: 100%;
+    overflow: hidden;
+    div {
+        width: 100%;
+        margin: 50px 0 0 0;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .box1 {
+        div {
+            h1 {
+                font-family: 'fakt-bold';
+                color: white;
+            }
+            p {
+                margin: 30px 0;
+                font-family: 'fakt-blond';
+                letter-spacing: 0.04em;
+                font-size: 1em;
+                color: white;
+            }
+            margin-top: 200px;
+            .button {
+                background-color: white;
+                color: #00b5e2;
+            }
+            .button:hover {
+                color: black;
+                background-color: #00c9fb
+            }
+        }
+        background-image: url('./app/assets/images/tracker.jpg')
+    }
+    .box2 {
+        text-align: left;
+        div {
+            margin-top: 200px;
+            position: relative;
+            left: -20vw;
+            text-align: center;
+            h1 {
+                font-family: 'fakt-bold'
+            }
+            p {
+                margin: 30px 0;
+                font-family: 'fakt-blond'
+            }
+        }
+        background-image: url('./app/assets/images/carousel-strap.jpg')
+    }
+    .box3 {
+        div {
+            margin-top: 200px;
+            position: relative;
+            left: -20vw;
+            text-align: center;
+            h1 {
+                font-family: 'fakt';
+                strong {
+                    font-family: 'fakt-bold'
+                }
+            }
+            p {
+                margin: 30px 0;
+                font-family: 'fakt-blond'
+            }
+        }
+        background-image: url('./app/assets/images/carousel-girl.jpg')
+    }
+}
+
+.bottom-carousel {
+    width: 100%;
+    overflow: hidden;
+    .box1 {
+        background-image: url('./app/assets/images/tracker.jpg')
+    }
+    .box2 {
+        background-image: url('./app/assets/images/carousel-strap.jpg')
+    }
+    .box3 {
+        background-image: url('./app/assets/images/carousel-girl.jpg')
+    }
+}
+
+nav {
+    z-index: 1;
+}

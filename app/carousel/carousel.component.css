@@ -1,0 +1,70 @@
+.top-carousel {
+  width: 100%;
+  overflow: hidden; }
+  .top-carousel div {
+    width: 100%;
+    margin: 50px 0 0 0;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center; }
+  .top-carousel .box1 {
+    background-image: url("./app/assets/images/tracker.jpg"); }
+    .top-carousel .box1 div {
+      margin-top: 200px; }
+      .top-carousel .box1 div h1 {
+        font-family: 'fakt-bold';
+        color: white; }
+      .top-carousel .box1 div p {
+        margin: 30px 0;
+        font-family: 'fakt-blond';
+        letter-spacing: 0.04em;
+        font-size: 1em;
+        color: white; }
+      .top-carousel .box1 div .button {
+        background-color: white;
+        color: #00b5e2; }
+      .top-carousel .box1 div .button:hover {
+        color: black;
+        background-color: #00c9fb; }
+  .top-carousel .box2 {
+    text-align: left;
+    background-image: url("./app/assets/images/carousel-strap.jpg"); }
+    .top-carousel .box2 div {
+      margin-top: 200px;
+      position: relative;
+      left: -20vw;
+      text-align: center; }
+      .top-carousel .box2 div h1 {
+        font-family: 'fakt-bold'; }
+      .top-carousel .box2 div p {
+        margin: 30px 0;
+        font-family: 'fakt-blond'; }
+  .top-carousel .box3 {
+    background-image: url("./app/assets/images/carousel-girl.jpg"); }
+    .top-carousel .box3 div {
+      margin-top: 200px;
+      position: relative;
+      left: -20vw;
+      text-align: center; }
+      .top-carousel .box3 div h1 {
+        font-family: 'fakt'; }
+        .top-carousel .box3 div h1 strong {
+          font-family: 'fakt-bold'; }
+      .top-carousel .box3 div p {
+        margin: 30px 0;
+        font-family: 'fakt-blond'; }
+
+.bottom-carousel {
+  width: 100%;
+  overflow: hidden; }
+  .bottom-carousel .box1 {
+    background-image: url("./app/assets/images/tracker.jpg"); }
+  .bottom-carousel .box2 {
+    background-image: url("./app/assets/images/carousel-strap.jpg"); }
+  .bottom-carousel .box3 {
+    background-image: url("./app/assets/images/carousel-girl.jpg"); }
+
+nav {
+  z-index: 1; }

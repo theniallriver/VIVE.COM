@@ -1,0 +1,76 @@
+.footer {
+  width: 100vw; }
+  .footer .social-bar {
+    background-color: #0074cb;
+    width: 100vw;
+    height: 70px; }
+    .footer .social-bar h1 {
+      color: white;
+      font-family: 'fakt-blond';
+      font-size: 24px;
+      line-height: 24px;
+      margin: 0 10vw;
+      padding: 25px 0; }
+      .footer .social-bar h1 i {
+        margin-left: 5px; }
+  .footer .footer-bottom {
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    background-color: #111820;
+    font-family: 'fakt', Helvetica, Arial; }
+    .footer .footer-bottom .footer-column {
+      position: relative;
+      width: 100%;
+      height: inherit; }
+      .footer .footer-bottom .footer-column .footer-box-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin: 0 0 0 10vw;
+        padding: 30px 0 200px 0;
+        clear: both; }
+        .footer .footer-bottom .footer-column .footer-box-container .footer-box {
+          width: 25%;
+          padding-right: 15px; }
+          .footer .footer-bottom .footer-column .footer-box-container .footer-box h2 {
+            color: white;
+            font-family: 'fakt-bold';
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 30px; }
+          .footer .footer-bottom .footer-column .footer-box-container .footer-box a {
+            text-decoration: none; }
+            .footer .footer-bottom .footer-column .footer-box-container .footer-box a li {
+              list-style: none;
+              text-decoration: none;
+              font-family: 'fakt-blond', Helvetica, Arial;
+              font-size: 15px;
+              line-height: 20px;
+              color: #999;
+              margin: 0 0 10px 0; }
+            .footer .footer-bottom .footer-column .footer-box-container .footer-box a li:hover {
+              color: white; }
+
+.foot-logos {
+  text-align: right;
+  position: absolute;
+  bottom: 100px;
+  right: 10vw;
+  color: white;
+  font-size: 40px;
+  font-family: Arial; }
+
+.copyright {
+  clear: both;
+  display: block;
+  left: 0;
+  margin: 0 0 30px;
+  padding: 0;
+  width: 100%;
+  color: #666;
+  position: absolute;
+  bottom: 30px;
+  text-align: left;
+  left: 10vw; }

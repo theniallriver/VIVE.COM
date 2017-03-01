@@ -1,0 +1,28 @@
+<product-nav></product-nav>
+<h1>Your Cart</h1>
+<hr>
+<div class='cart-container'>
+    <div class="cart" *ngFor='let item of myCart'>
+        <img src="{{item.product_img}}" alt="">
+        <h1>{{item?.product_name }}</h1>
+        <h2>Quantity: {{item?.qty }}</h2>
+        <h2>{{item?.product_price | currency: 'USD': true }}</h2>
+        <h2>Total: {{item?.product_price * item?.qty | currency: 'USD': true}}</h2>
+        <button class="button button-red" (click)='removeFromCart(item.id)'>Delete Item</button>
+    </div>
+</div>
+
+<hr>
+<h1>Checkout</h1>
+<form>
+    <h2>Shipping Info</h2>
+    Name: <input type="" name="" value="" required> Address Line 1: <input type="" name="" value=""> Address Line 2: <input type="" name="" value=""> City: <input type="" name="" value=""> State: <input type="" name="" value=""> Zip: <input type="" name=""
+        value="">
+</form>
+<p>Subtotal:{{total | currency: 'USD': true}}</p>
+<p>Tax: {{total * 0.085 | currency: 'USD': true}}</p>
+<p>Shipping: $49.99</p>
+<p>Grand Total: {{total * 1.085 + 49.99 | currency: 'USD': true}}</p>
+<h1> Stripe </h1>
+
+<button class="button" (click)="openCheckout()">Complete Purchase</button>

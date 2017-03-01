@@ -1,0 +1,66 @@
+<nav class="vive-nav">
+    <div class="nav">
+        <div class="header">
+            <a [routerLink]="['/home']">
+                <div class="logo">
+                    <img class="vive-triangle" src="app/assets/vive-triangle.png" alt="">
+                    <img class="vive-logo" src="app/assets/vive.png">
+                </div>
+            </a>
+            <div class='nav-links'>
+                <div>
+                    <a [routerLink]="['/product']">
+                        <span>VR Product</span> </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <span>VIVEPORT</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <span>Developers</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <span>Blog</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <span>Community</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <span>Support</span>
+                    </a>
+                </div>
+            </div>
+            <button>Setup | Download</button>
+            <div *ngIf='!(loggedIn | async)' class="nav-links sign-in">
+                <div>
+                    <a href="/auth">
+                        <span>Sign In</span></a>
+                </div>
+
+            </div>
+            <div *ngIf='loggedIn | async' (click)='showUserMenu()' class="profile-picture">
+                <img src="{{proPic | async}}" alt="">
+            </div>
+            <div class="user-menu" *ngIf="showMenu" (click)='showUserMenu()'>
+                <a [routerLink]="['/account']">Account</a>
+                <a href="">Order History</a>
+                <a href="">Wallet</a>
+                <a href="/api/logout">Sign Out</a>
+            </div>
+            <img src="app/assets/htc.png" class="htc-logo" alt="">
+        </div>
+        <div class="cart-container">
+            <i class="fa fa-2 fa-shopping-cart" [routerLink]="['/cart']"></i>
+        </div>
+    </div>
+
+</nav>

@@ -1,0 +1,142 @@
+.banner {
+    background-image: url('app/assets/images/loveSteam.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    z-index: -1000;
+    h1 {
+        color: #e9eaeb;
+    }
+}
+
+h1 {
+    font-family: "fakt-blond";
+    font-size: 34px;
+    line-height: 39px;
+    color: #3c3c3c;
+    strong {
+        font-family: "fakt-bold"
+    }
+}
+
+p {
+    font-family: "fakt-blond";
+    font-size: 16px;
+    line-height: 27px;
+    color: #3c3c3c;
+}
+
+.content {
+    margin: 0 10vw;
+}
+
+.images {
+    .row1 {
+        width: 100%;
+        height: 351px;
+        img {
+            width: 48%;
+            float: left;
+            margin: 1%;
+        }
+    }
+    .row2,
+    .row3 {
+        height: 197px;
+        width: 100%;
+        margin: 5px;
+        clear: both;
+        img {
+            width: 31.33333%;
+            float: left;
+            margin: 1%;
+        }
+    }
+    .row3 {
+        margin-bottom: 100px;
+    }
+}
+
+.powered {
+    margin-bottom: 100px;
+}
+
+.whats-inside {
+    background-image: url('app/assets/images/inside.png');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    text-align: right;
+    margin-bottom: 100px;
+    div {
+        background-color: white;
+        width: 400px;
+        position: absolute;
+        right: 0;
+        text-align: left;
+        h1 {
+            margin-top: 0;
+            margin-left: 25px;
+        }
+    }
+}
+
+.journey {
+    margin-bottom: 100px;
+}
+
+.viveport-grid {
+    .col1 {
+        width: 33.33%;
+        height: 700px;
+        float: left;
+        .viveport {
+            background-image: url('app/assets/images/viveportexp.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+        }
+        .create {
+            background-image: url('app/assets/images/musicgirl.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+        }
+    }
+    .explore {
+        background-image: url('app/assets/images/explore.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+        width: 66.33%;
+        float: left;
+        margin-bottom: 100px;
+    }
+}
+
+.room-scale {
+    margin-left: 35%;
+    margin-bottom: 100px;
+}
+
+.foot-banner {
+    background-image: url('app/assets/images/experience-girl.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100vw;
+    div {
+        background-color: white;
+        width: 300px;
+        font-family: "fakt-blond";
+        padding-left: 10vw;
+        padding-bottom: 25px;
+        h1 {
+            margin: 0;
+        }
+    }
+}

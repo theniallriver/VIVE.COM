@@ -1,0 +1,25 @@
+.pc-carousel2 {
+  width: 100%;
+  height: 400px; }
+  .pc-carousel2 .b {
+    box-sizing: border-box;
+    height: 400px;
+    padding: 50px 10vw; }
+    .pc-carousel2 .b h1 {
+      font-family: 'fakt';
+      font-size: 36px;
+      color: #3c3c3c; }
+      .pc-carousel2 .b h1 strong {
+        font-family: "fakt-bold"; }
+    .pc-carousel2 .b p {
+      font-family: "fakt-blond";
+      font-size: 16px;
+      line-height: 27px;
+      color: #3c3c3c;
+      width: 400px; }
+  .pc-carousel2 .b1 {
+    background-image: url("app/assets/images/nvidia.jpg");
+    background-position: center;
+    background-size: cover; }
+  .pc-carousel2 .b2 p {
+    width: 500px; }
