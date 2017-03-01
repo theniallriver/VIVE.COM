@@ -29,8 +29,9 @@ import { PCCarousel2Component }      from './pcs/pc-carousel2/pc-carousel2.compo
 import { InstallationComponent }     from './installation/installation.component';
 import { EnterpriseComponent }       from './enterprise/enterprise.component';
 import { OrdersComponent }           from './orders/orders.component';
-import { DevelopersComponent }       from './developers/developers.component'
-import { DevNavComponent }           from './developers-nav/dev-nav.component'
+import { DevelopersComponent }       from './developers/developers.component';
+import { DevNavComponent }           from './developers-nav/dev-nav.component';
+import { CertificationComponent }    from './certification/certification.component';
 @NgModule({
   imports: [
     BrowserModule,
@@ -48,6 +49,7 @@ import { DevNavComponent }           from './developers-nav/dev-nav.component'
       {path: 'enterprise', component: EnterpriseComponent},
       {path: 'orders', component:OrdersComponent},
       {path: 'developers', component: DevelopersComponent},
+      {path: 'certification', component: CertificationComponent},
       {path: '', redirectTo:'home', pathMatch:'full'},
     ],
       {useHash: true} )],
@@ -72,6 +74,7 @@ import { DevNavComponent }           from './developers-nav/dev-nav.component'
     InstallationComponent,
     HomeCarouselComponent,
     HomeCarousel2Component,
+    CertificationComponent,
     ProductCarouselComponent,
     ProductCarouselComponent2,
     ProductCarouselComponent3,

@@ -1,0 +1,16 @@
+.cert {
+  padding: 50px 10vw;
+  color: #3c3c3c; }
+  .cert h1 {
+    text-align: center;
+    font-family: "fakt";
+    font-size: 34px; }
+  .cert p {
+    font-family: 'fakt-blond';
+    font-size: 16px;
+    line-height: 27px; }
+  .cert .btn {
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+    margin: 0 0 0 43%; }

@@ -35,6 +35,7 @@ var enterprise_component_1 = require("./enterprise/enterprise.component");
 var orders_component_1 = require("./orders/orders.component");
 var developers_component_1 = require("./developers/developers.component");
 var dev_nav_component_1 = require("./developers-nav/dev-nav.component");
+var certification_component_1 = require("./certification/certification.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -58,6 +59,7 @@ AppModule = __decorate([
                 { path: 'enterprise', component: enterprise_component_1.EnterpriseComponent },
                 { path: 'orders', component: orders_component_1.OrdersComponent },
                 { path: 'developers', component: developers_component_1.DevelopersComponent },
+                { path: 'certification', component: certification_component_1.CertificationComponent },
                 { path: '', redirectTo: 'home', pathMatch: 'full' },
             ], { useHash: true })
         ],
@@ -82,6 +84,7 @@ AppModule = __decorate([
             installation_component_1.InstallationComponent,
             carousel_component_1.HomeCarouselComponent,
             carousel2_component_1.HomeCarousel2Component,
+            certification_component_1.CertificationComponent,
             product_carousel_component_1.ProductCarouselComponent,
             product_carousel2_component_1.ProductCarouselComponent2,
             product_carousel3_component_1.ProductCarouselComponent3,
