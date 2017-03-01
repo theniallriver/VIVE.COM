@@ -6,5 +6,41 @@
   height: 350px;
   margin-bottom: 100px; }
 
-body {
-  box-sizing: border-box; }
+.enterprise {
+  box-sizing: border-box;
+  text-align: center;
+  color: #3c3c3c; }
+
+h1 {
+  font-family: "fakt-bold";
+  font-size: 34px;
+  line-height: 39px; }
+
+p {
+  font-family: "fakt-blond";
+  font-size: 17px;
+  line-height: 27px; }
+
+h3 {
+  font-family: "fakt-bold";
+  font-size: 16px;
+  line-height: 27px; }
+
+li {
+  font-family: "fakt-blond";
+  font-size: 16px;
+  line-height: 27px; }
+
+.list {
+  margin: 0 30vw;
+  text-align: left; }
+
+hr {
+  margin: 100px 10vw 20px 10vw; }
+
+button {
+  margin-top: 25px; }
+
+.buffer {
+  width: 100vw;
+  height: 100px; }
