@@ -37,7 +37,7 @@ import { PCCarousel2Component }        from './pcs/pc-carousel2/pc-carousel2.com
       {path:'cart', component: CartComponent},
       {path:'accessories', component:AccessoriesComponent},
       {path: 'experiences', component:ExperiencesComponent},
-      {path: 'pcs', component: PCSComponent}
+      {path: 'pcs', component: PCSComponent},
       {path: '', redirectTo:'home', pathMatch:'full'},
     ],
       {useHash: true} )],
