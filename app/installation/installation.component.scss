@@ -1,1 +1,108 @@
+ body {
+     box-sizing: border-box;
+ }
  
+ .banner {
+     background-image: url('app/assets/images/whiteglove.png');
+     background-position: center;
+     background-size: cover;
+     height: 225px;
+     text-align: center;
+     color: #e9eaeb;
+     padding-top: 50px;
+     zoom: 1;
+     margin-bottom: 100px;
+ }
+ 
+ .content {
+     margin-left: 10vw;
+     color: #3c3c3c;
+ }
+ 
+ h1 {
+     font-family: "fakt-blond";
+     font-size: 36px;
+     strong {
+         font-family: "fakt-bold"
+     }
+ }
+ 
+ p {
+     font-family: "fakt-blond";
+     font-size: 20px;
+     line-height: 32px;
+     margin: 0;
+ }
+ 
+ .availability-p {
+     width: 50%;
+     float: left;
+ }
+ 
+ h2 {
+     font-family: "fakt";
+     font-size: 20px;
+     line-height: 32px;
+     color: #3c3c3c;
+     margin: 0;
+     margin-bottom: 30px;
+ }
+ 
+ .clear {
+     clear: both
+ }
+ 
+ .availability {
+     text-align: center;
+     input {
+         font-size: 14px;
+         box-sizing: border-box;
+         width: 200px;
+         min-width: 150px;
+         height: 38px;
+         margin-right: 10px;
+         margin-bottom: 175px;
+         padding: 0 20px;
+         vertical-align: top;
+         border: 1px solid #3c3c3c;
+         border-radius: 44px;
+         outline: none;
+         background-color: #fff;
+     }
+ }
+ 
+ ul {
+     li {
+         font-family: "fakt-blond";
+         font-size: 20px;
+         line-height: 32px;
+         color: #3c3c3c;
+     }
+ }
+ 
+ ::-webkit-input-placeholder {
+     color: #aba9b1;
+ }
+ 
+ .p-text {
+     width: 50%;
+     margin-bottom: 20px;
+ }
+ 
+ button {
+     margin-bottom: 100px;
+     margin-top: 0;
+     height: 38px;
+ }
+ 
+ .warning {
+     padding: 100px 0;
+     background-color: #41464d;
+     p {
+         margin-left: 10vw;
+         width: 50%;
+         font-family: "fakt-blond";
+         font-size: 16px;
+         color: #b8b8b8;
+     }
+ }
