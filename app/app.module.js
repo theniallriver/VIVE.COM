@@ -5,11 +5,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+//Modules
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var forms_1 = require("@angular/forms");
 var router_1 = require("@angular/router");
 var http_1 = require("@angular/http");
+//Components
 var app_component_1 = require("./app.component");
 var nav_component_1 = require("./navbar/nav.component");
 var footer_component_1 = require("./footer/footer.component");
@@ -30,6 +32,7 @@ var pc_carousel_component_1 = require("./pcs/pc-carousel/pc-carousel.component")
 var pc_carousel2_component_1 = require("./pcs/pc-carousel2/pc-carousel2.component");
 var installation_component_1 = require("./installation/installation.component");
 var enterprise_component_1 = require("./enterprise/enterprise.component");
+var orders_component_1 = require("./orders/orders.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -51,6 +54,7 @@ AppModule = __decorate([
                 { path: 'pcs', component: pcs_component_1.PCSComponent },
                 { path: 'installation', component: installation_component_1.InstallationComponent },
                 { path: 'enterprise', component: enterprise_component_1.EnterpriseComponent },
+                { path: 'orders', component: orders_component_1.OrdersComponent },
                 { path: '', redirectTo: 'home', pathMatch: 'full' },
             ], { useHash: true })
         ],
@@ -61,6 +65,7 @@ AppModule = __decorate([
             home_component_1.HomeComponent,
             cart_component_1.CartComponent,
             footer_component_1.FooterComponent,
+            orders_component_1.OrdersComponent,
             product_component_1.ProductComponent,
             account_component_1.AccountComponent,
             enterprise_component_1.EnterpriseComponent,

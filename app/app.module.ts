@@ -1,3 +1,4 @@
+//Modules
 import { NgModule }                  from '@angular/core';
 import { BrowserModule }             from '@angular/platform-browser';
 import { FormsModule }               from '@angular/forms';
@@ -6,7 +7,7 @@ import {
   HashLocationStrategy, 
   LocationStrategy }                 from '@angular/common';
 import { HttpModule }                from '@angular/http';
-
+//Components
 import { AppComponent }              from './app.component';
 import { NavComponent }              from './navbar/nav.component';
 import { FooterComponent }           from './footer/footer.component';
@@ -27,6 +28,7 @@ import { PCCarouselComponent }       from './pcs/pc-carousel/pc-carousel.compone
 import { PCCarousel2Component }      from './pcs/pc-carousel2/pc-carousel2.component'
 import { InstallationComponent }     from './installation/installation.component'   
 import { EnterpriseComponent }       from './enterprise/enterprise.component'
+import { OrdersComponent }           from './orders/orders.component'
 @NgModule({
   imports: [
     BrowserModule,
@@ -36,12 +38,13 @@ import { EnterpriseComponent }       from './enterprise/enterprise.component'
       {path: 'home', component: HomeComponent,},
       {path: 'product', component: ProductComponent},
       {path: 'account', component: AccountComponent},
-      {path:'cart', component: CartComponent},
-      {path:'accessories', component:AccessoriesComponent},
+      {path: 'cart', component: CartComponent},
+      {path: 'accessories', component:AccessoriesComponent},
       {path: 'experiences', component:ExperiencesComponent},
       {path: 'pcs', component: PCSComponent},
       {path: 'installation', component: InstallationComponent},
       {path: 'enterprise', component: EnterpriseComponent},
+      {path: 'orders', component:OrdersComponent},
       {path: '', redirectTo:'home', pathMatch:'full'},
     ],
       {useHash: true} )],
@@ -52,6 +55,7 @@ import { EnterpriseComponent }       from './enterprise/enterprise.component'
     HomeComponent,
     CartComponent,
     FooterComponent,
+    OrdersComponent,
     ProductComponent,
     AccountComponent,
     EnterpriseComponent,

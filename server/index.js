@@ -46,8 +46,8 @@ app.post('/api/cart', productCtrl.addToCart);
 app.get('/api/cart', productCtrl.getCart);
 app.delete('/api/cart/:id', productCtrl.removeFromCart)
 app.get('/api/checkout', productCtrl.checkout)
-
-//create User Table
+app.get('/api/history', productCtrl.getHistory)
+    //create User Table
 db.init.create_tables([], function(err, results) {
     if (err) {
         console.error(err);

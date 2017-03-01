@@ -1,0 +1,48 @@
+.buffer {
+  height: 70px;
+  width: 100%; }
+
+.orderpage {
+  text-align: center;
+  color: #3c3c3c;
+  font-family: "fakt"; }
+  .orderpage hr {
+    margin: 0 10vw; }
+
+.orders {
+  text-align: left; }
+  .orders .order {
+    clear: both;
+    margin: 25px 10vw; }
+  .orders img {
+    float: left;
+    height: 100px;
+    margin: 50px;
+    border: black 2px solid; }
+  .orders .order-info {
+    float: left;
+    margin-top: 50px;
+    line-height: 25px;
+    width: 200px; }
+    .orders .order-info strong {
+      font-family: "fakt-bold"; }
+
+button {
+  background-color: white;
+  color: #3c3c3c;
+  float: left;
+  position: relative;
+  left: 150px;
+  top: 90px; }
+
+button:hover {
+  background-color: red; }
+
+.underline {
+  height: 1px;
+  width: 80vw;
+  margin: 20px 10vw;
+  background-color: #3c3c3c; }
+
+hr {
+  height: 2px; }

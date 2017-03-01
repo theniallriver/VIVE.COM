@@ -29,6 +29,11 @@ var ProductService = (function () {
         return this.http.get('/api/cart')
             .map(function (res) { return res.json(); });
     };
+    ProductService.prototype.getOrderHistory = function () {
+        return this.http.get('/api/history')
+            .map(function (res) { return res.json(); })
+            .do(function (res) { return console.log('WE GOT YOUR ORDERs:' + res); });
+    };
     ProductService.prototype.getTotal = function () {
         return this.http.get('/api/cart')
             .map(function (res) { return res.json(); })

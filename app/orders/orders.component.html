@@ -1,0 +1,20 @@
+<div class="buffer">
+</div>
+<div class="orderpage">
+    <h1>ORDER HISTORY</h1>
+    <hr>
+    <div class="orders">
+        <div *ngFor='let order of orders'>
+            <div class="order">
+                <img src={{order?.product_img}} alt="">
+
+                <div class="order-info"> <strong>Product:</strong> {{order?.product_name}} <br><strong>Quantity:</strong> {{order?.qty}}
+                    <br><strong>Order Ref #:</strong> {{order?.order_id}} <br><strong>Shipping Status:</strong> Shipped!</div>
+                <button class="button">Return/Cancel</button>
+            </div>
+
+            <hr class="underline">
+
+        </div>
+    </div>
+</div>

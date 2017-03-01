@@ -24,7 +24,11 @@ total:number = 0;
         .map(res => res.json())
         
     }
-
+    getOrderHistory(){
+        return this.http.get('/api/history')
+        .map(res =>res.json())
+        .do(res=> console.log('WE GOT YOUR ORDERs:' + res))
+    }
 
 getTotal(): Observable<Response>{
     return this.http.get('/api/cart')

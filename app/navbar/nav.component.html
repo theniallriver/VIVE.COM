@@ -52,13 +52,13 @@
             </div>
             <div class="user-menu" *ngIf="showMenu" (click)='showUserMenu()'>
                 <a [routerLink]="['/account']">Account</a>
-                <a href="">Order History</a>
+                <a [routerLink]="['/orders']">Order History</a>
                 <a href="">Wallet</a>
                 <a href="/api/logout">Sign Out</a>
             </div>
             <img src="app/assets/htc.png" class="htc-logo" alt="">
         </div>
-        <div class="cart-container">
+        <div *ngIf='loggedIn | async' class="cart-container">
             <i class="fa fa-2 fa-shopping-cart" [routerLink]="['/cart']"></i>
         </div>
     </div>

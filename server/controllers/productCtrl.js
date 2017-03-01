@@ -71,7 +71,14 @@ exports.checkout = function(req, res) {
             console.log('got Cart')
         }
     })
-
-
-
+}
+exports.getHistory = function(req, res, next) {
+    db.product.get_history([req.user.user_id], function(err, results) {
+        if (err) {
+            console.error(err);
+            return res.send(err)
+        } else {
+            return res.status(200).send(results)
+        }
+    })
 }
