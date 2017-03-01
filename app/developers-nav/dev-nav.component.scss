@@ -1,0 +1,32 @@
+.buffer {
+    margin-top: 70px;
+}
+
+nav {
+    height: 50px;
+    display: block;
+    background: #41464D;
+    text-align: center;
+    div {
+        height: 46px;
+        display: inline-block;
+        margin: 0 22px;
+        a {
+            position: relative;
+            top: 16px;
+            text-decoration: none;
+            color: #fff;
+            font-family: "fakt";
+            vertical-align: middle;
+            margin-top: 18px;
+            span {
+                font-size: 16px;
+                height: 46px;
+                border-bottom: solid 4px #41464d
+            }
+        }
+    }
+    div:hover {
+        border-bottom: solid 4px #00b5E2;
+    }
+}

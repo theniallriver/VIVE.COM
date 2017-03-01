@@ -21,14 +21,16 @@ import { ProductCarouselComponent2 } from './product/product-carousel2/product-c
 import { ProductCarouselComponent3 } from './product/product-carousel3/product-carousel3.component';
 import { AccountComponent }          from './account/account.component';
 import { AccessoriesComponent }      from './accessories/accessories.component';
-import { CartComponent }             from './cart/cart.component'
+import { CartComponent }             from './cart/cart.component';
 import { ExperiencesComponent}       from './experiences/experiences.component';
-import { PCSComponent }              from './pcs/pcs.component'
-import { PCCarouselComponent }       from './pcs/pc-carousel/pc-carousel.component'
-import { PCCarousel2Component }      from './pcs/pc-carousel2/pc-carousel2.component'
-import { InstallationComponent }     from './installation/installation.component'   
-import { EnterpriseComponent }       from './enterprise/enterprise.component'
-import { OrdersComponent }           from './orders/orders.component'
+import { PCSComponent }              from './pcs/pcs.component';
+import { PCCarouselComponent }       from './pcs/pc-carousel/pc-carousel.component';
+import { PCCarousel2Component }      from './pcs/pc-carousel2/pc-carousel2.component';
+import { InstallationComponent }     from './installation/installation.component';
+import { EnterpriseComponent }       from './enterprise/enterprise.component';
+import { OrdersComponent }           from './orders/orders.component';
+import { DevelopersComponent }       from './developers/developers.component'
+import { DevNavComponent }           from './developers-nav/dev-nav.component'
 @NgModule({
   imports: [
     BrowserModule,
@@ -45,6 +47,7 @@ import { OrdersComponent }           from './orders/orders.component'
       {path: 'installation', component: InstallationComponent},
       {path: 'enterprise', component: EnterpriseComponent},
       {path: 'orders', component:OrdersComponent},
+      {path: 'developers', component: DevelopersComponent},
       {path: '', redirectTo:'home', pathMatch:'full'},
     ],
       {useHash: true} )],
@@ -54,10 +57,12 @@ import { OrdersComponent }           from './orders/orders.component'
     PCSComponent,
     HomeComponent,
     CartComponent,
+    DevNavComponent,
     FooterComponent,
     OrdersComponent,
     ProductComponent,
     AccountComponent,
+    DevelopersComponent,
     EnterpriseComponent,
     PCCarouselComponent,
     ProductNavComponent,

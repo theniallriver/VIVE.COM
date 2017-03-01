@@ -33,6 +33,8 @@ var pc_carousel2_component_1 = require("./pcs/pc-carousel2/pc-carousel2.componen
 var installation_component_1 = require("./installation/installation.component");
 var enterprise_component_1 = require("./enterprise/enterprise.component");
 var orders_component_1 = require("./orders/orders.component");
+var developers_component_1 = require("./developers/developers.component");
+var dev_nav_component_1 = require("./developers-nav/dev-nav.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -55,6 +57,7 @@ AppModule = __decorate([
                 { path: 'installation', component: installation_component_1.InstallationComponent },
                 { path: 'enterprise', component: enterprise_component_1.EnterpriseComponent },
                 { path: 'orders', component: orders_component_1.OrdersComponent },
+                { path: 'developers', component: developers_component_1.DevelopersComponent },
                 { path: '', redirectTo: 'home', pathMatch: 'full' },
             ], { useHash: true })
         ],
@@ -64,10 +67,12 @@ AppModule = __decorate([
             pcs_component_1.PCSComponent,
             home_component_1.HomeComponent,
             cart_component_1.CartComponent,
+            dev_nav_component_1.DevNavComponent,
             footer_component_1.FooterComponent,
             orders_component_1.OrdersComponent,
             product_component_1.ProductComponent,
             account_component_1.AccountComponent,
+            developers_component_1.DevelopersComponent,
             enterprise_component_1.EnterpriseComponent,
             pc_carousel_component_1.PCCarouselComponent,
             product_nav_component_1.ProductNavComponent,
