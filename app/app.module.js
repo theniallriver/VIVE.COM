@@ -37,6 +37,7 @@ var developers_component_1 = require("./developers/developers.component");
 var dev_nav_component_1 = require("./developers-nav/dev-nav.component");
 var certification_component_1 = require("./certification/certification.component");
 var vivex_component_1 = require("./vive-x/vivex.component");
+var dev_tracker_component_1 = require("./dev-tracker/dev-tracker.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -62,6 +63,7 @@ AppModule = __decorate([
                 { path: 'experiences', component: experiences_component_1.ExperiencesComponent },
                 { path: 'installation', component: installation_component_1.InstallationComponent },
                 { path: 'certification', component: certification_component_1.CertificationComponent },
+                { path: 'tracker', component: dev_tracker_component_1.DevTrackerComponent },
                 { path: '', redirectTo: 'home', pathMatch: 'full' },
             ], { useHash: true })
         ],
@@ -81,6 +83,7 @@ AppModule = __decorate([
             enterprise_component_1.EnterpriseComponent,
             pc_carousel_component_1.PCCarouselComponent,
             product_nav_component_1.ProductNavComponent,
+            dev_tracker_component_1.DevTrackerComponent,
             pc_carousel2_component_1.PCCarousel2Component,
             accessories_component_1.AccessoriesComponent,
             experiences_component_1.ExperiencesComponent,
