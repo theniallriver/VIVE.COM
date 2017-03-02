@@ -38,6 +38,7 @@ var dev_nav_component_1 = require("./developers-nav/dev-nav.component");
 var certification_component_1 = require("./certification/certification.component");
 var vivex_component_1 = require("./vive-x/vivex.component");
 var dev_tracker_component_1 = require("./dev-tracker/dev-tracker.component");
+var studios_component_1 = require("./studios/studios.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -56,6 +57,7 @@ AppModule = __decorate([
                 { path: 'vivex', component: vivex_component_1.VivexComponent },
                 { path: 'orders', component: orders_component_1.OrdersComponent },
                 { path: 'product', component: product_component_1.ProductComponent },
+                { path: 'studios', component: studios_component_1.StudiosComponent },
                 { path: 'account', component: account_component_1.AccountComponent },
                 { path: 'developers', component: developers_component_1.DevelopersComponent },
                 { path: 'enterprise', component: enterprise_component_1.EnterpriseComponent },
@@ -76,6 +78,7 @@ AppModule = __decorate([
             vivex_component_1.VivexComponent,
             dev_nav_component_1.DevNavComponent,
             footer_component_1.FooterComponent,
+            studios_component_1.StudiosComponent,
             orders_component_1.OrdersComponent,
             product_component_1.ProductComponent,
             account_component_1.AccountComponent,
