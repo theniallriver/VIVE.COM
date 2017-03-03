@@ -1,0 +1,37 @@
+.buffer {
+  width: 100vw;
+  height: 70px; }
+
+.banner {
+  height: 500px;
+  background-image: url("app/assets/images/track-banner.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.banner2 {
+  height: 500px;
+  background-image: url("app/assets/images/track-banner2.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.gloves {
+  background-image: url("app/assets/images/gloves.png");
+  width: 100px;
+  height: 100px; }
+
+.gun {
+  background-image: url("app/assets/images/gun.png");
+  width: 100px;
+  height: 100px; }
+
+.footer {
+  background-image: url("app/assets/track-banner3.jpg");
+  height: 500px; }
+
+h1 {
+  font-family: 'fakt';
+  font-size: 34px;
+  line-height: 39px; }
+
+.content {
+  padding: 0 10vw; }
