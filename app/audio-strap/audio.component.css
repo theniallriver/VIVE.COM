@@ -1,0 +1,58 @@
+.buffer {
+  width: 100vw;
+  height: 70px; }
+
+.banner {
+  box-sizing: border-box;
+  background-image: url("app/assets/images/audio-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 700px;
+  color: #3c3c3c;
+  text-align: center;
+  padding: 100px 20vw 100px 20vw;
+  margin-bottom: 100px; }
+  .banner img {
+    width: 700px; }
+
+h1 {
+  font-family: "fakt";
+  font-size: 34px; }
+  h1 strong {
+    font-family: "fakt-bold"; }
+
+p {
+  font-family: "fakt-blond";
+  font-size: 17px;
+  line-height: 28px; }
+
+.content {
+  box-sizing: border-box;
+  padding: 0 10vw;
+  color: #3c3c3c; }
+  .content video {
+    width: 80vw;
+    margin: 80px 0 100px 0;
+    height: calc(100vh-70px); }
+  .content img {
+    width: 80vw;
+    margin: 80px 0 100px 0; }
+
+.bottom {
+  background-image: url("app/assets/images/audio-btm.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  box-sizing: border-box; }
+  .bottom .half {
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: #3c3c3c; }
+    .bottom .half .btmcontent {
+      padding-top: 100px;
+      padding-right: 100px; }
+    .bottom .half img {
+      margin-left: 150px;
+      width: 400px; }

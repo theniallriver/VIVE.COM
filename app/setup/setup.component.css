@@ -1,0 +1,71 @@
+.buffer {
+  width: 100vw;
+  height: 70px; }
+
+.banner {
+  background-image: url("app/assets/images/vive-setup-BG.jpg");
+  height: 225px;
+  text-align: center;
+  color: #e9eaeb;
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  margin-bottom: 100px; }
+
+h1 {
+  font-family: "fakt-blond";
+  font-size: 34px;
+  line-height: 39px; }
+
+h2 {
+  font-family: "fakt";
+  font-size: 22px;
+  line-height: 29px; }
+
+h3 {
+  font-family: "fakt-bold";
+  font-size: 14px; }
+
+p,
+li {
+  font-family: "fakt";
+  font-size: 16px;
+  line-height: 24px;
+  color: #504a4b; }
+
+strong {
+  font-family: 'fakt-bold'; }
+
+.content {
+  box-sizing: border-box;
+  color: #3c3c3c;
+  padding: 0 10vw;
+  height: 900px; }
+  .content .right .setup .item {
+    text-align: center;
+    width: 100px;
+    float: left;
+    margin: 20px 50px;
+    color: #b4b9c0; }
+  .content .right .setup .steam {
+    position: relative;
+    top: -186px; }
+
+.left,
+.right,
+.btml,
+.btmr {
+  width: 50%;
+  float: left; }
+
+.bottom {
+  box-sizing: border-box;
+  color: white;
+  background-color: #41464d;
+  padding: 40px 10vw;
+  height: 290px; }
+  .bottom p {
+    font-family: "fakt-blond";
+    font-size: 14px;
+    line-height: 16px;
+    color: #b8b8b8; }

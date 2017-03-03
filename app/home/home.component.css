@@ -1,10 +1,13 @@
+.vr-content {
+  margin-bottom: 80px; }
+
 .home-comp div {
   position: relative; }
   .home-comp div .video-box {
     text-align: center;
     width: 100%;
     position: absolute;
-    top: 500px;
+    top: 100px;
     color: white; }
     .home-comp div .video-box h1 {
       font-family: "fakt";
@@ -20,7 +23,10 @@
   background-image: url("app/assets/images/another-carousel.jpg"); }
 
 .home-comp .banners {
-  width: 100%; }
+  width: 100%;
+  height: 400px; }
+  .home-comp .banners a {
+    color: black; }
   .home-comp .banners .banner {
     box-sizing: border-box;
     float: left;

@@ -34,7 +34,9 @@ import { DevNavComponent }           from './developers-nav/dev-nav.component';
 import { CertificationComponent }    from './certification/certification.component';
 import { VivexComponent}             from './vive-x/vivex.component'
 import { DevTrackerComponent }       from './dev-tracker/dev-tracker.component';
-import { StudiosComponent }          from './studios/studios.component'
+import { StudiosComponent }          from './studios/studios.component';
+import { AudioStrapComponent }       from './audio-strap/audio.component';
+import { SetupComponent }            from './setup/setup.component';
 @NgModule({
   imports: [
     BrowserModule,
@@ -47,7 +49,7 @@ import { StudiosComponent }          from './studios/studios.component'
       {path: 'vivex',         component: VivexComponent},
       {path: 'orders',        component: OrdersComponent},
       {path: 'product',       component: ProductComponent},
-      {path: 'studios',       component: StudiosComponent}
+      {path: 'studios',       component: StudiosComponent},
       {path: 'account',       component: AccountComponent},
       {path: 'developers',    component: DevelopersComponent},
       {path: 'enterprise',    component: EnterpriseComponent},
@@ -55,7 +57,9 @@ import { StudiosComponent }          from './studios/studios.component'
       {path: 'experiences',   component: ExperiencesComponent},
       {path: 'installation',  component: InstallationComponent},
       {path: 'certification', component: CertificationComponent},
-      {path: 'tracker', component: DevTrackerComponent }
+      {path: 'tracker',       component: DevTrackerComponent},
+      {path: 'audio',         component: AudioStrapComponent},
+      {path: 'setup',         component: SetupComponent}
       {path: '', redirectTo:'home', pathMatch:'full'},
     ],
       {useHash: true} )],
@@ -66,12 +70,14 @@ import { StudiosComponent }          from './studios/studios.component'
       HomeComponent,
       CartComponent,
       VivexComponent,
+      SetupComponent,
       DevNavComponent,
       FooterComponent,
       StudiosComponent,
       OrdersComponent,
       ProductComponent,
       AccountComponent,
+      AudioStrapComponent,
       DevelopersComponent,
       EnterpriseComponent,
       PCCarouselComponent,

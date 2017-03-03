@@ -39,7 +39,9 @@
                     </a>
                 </div>
             </div>
-            <button>Setup | Download</button>
+            <a [routerLink]="['/setup']">
+                <button>Setup | Download</button>
+            </a>
             <div *ngIf='!(loggedIn | async)' class="nav-links sign-in">
                 <div>
                     <a href="/auth">

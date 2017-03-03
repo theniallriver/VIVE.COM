@@ -1,0 +1,71 @@
+.buffer {
+    width: 100vw;
+    height: 70px;
+}
+
+.banner {
+    box-sizing: border-box;
+    background-image: url('app/assets/images/audio-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 700px;
+    color: #3c3c3c;
+    text-align: center;
+    padding: 100px 20vw 100px 20vw;
+    margin-bottom: 100px;
+    img {
+        width: 700px;
+    }
+}
+
+h1 {
+    font-family: "fakt";
+    font-size: 34px;
+    strong {
+        font-family: "fakt-bold"
+    }
+}
+
+p {
+    font-family: "fakt-blond";
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 0 10vw;
+    color: #3c3c3c;
+    video {
+        width: 80vw;
+        margin: 80px 0 100px 0;
+        height: calc(100vh-70px)
+    }
+    img {
+        width: 80vw;
+        margin: 80px 0 100px 0;
+    }
+}
+
+.bottom {
+    background-image: url('app/assets/images/audio-btm.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    box-sizing: border-box;
+    .half {
+        width: 50%;
+        float: left;
+        text-align: center;
+        color: #3c3c3c;
+        .btmcontent {
+            padding-top: 100px;
+            padding-right: 100px;
+        }
+        img {
+            margin-left: 150px;
+            width: 400px;
+        }
+    }
+}
