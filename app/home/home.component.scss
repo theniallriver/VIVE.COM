@@ -121,13 +121,16 @@
                 }
             }
             .explore-2 {
-                width: 42.5%;
+                width: 41.5%;
                 display: inline-block;
                 vertical-align: top;
                 color: white;
                 font-size: 22px;
                 font-family: "fakt";
                 margin-right: 3px;
+                a {
+                    color: white;
+                }
                 .explore2-1 {
                     background-image: url('app/assets/images/news2.jpg');
                     background-position: center;

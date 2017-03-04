@@ -42,6 +42,7 @@ var studios_component_1 = require("./studios/studios.component");
 var audio_component_1 = require("./audio-strap/audio.component");
 var setup_component_1 = require("./setup/setup.component");
 var tracker_component_1 = require("./tracker/tracker.component");
+var arcade_component_1 = require("./arcade/arcade.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -72,6 +73,7 @@ AppModule = __decorate([
                 { path: 'audio', component: audio_component_1.AudioStrapComponent },
                 { path: 'setup', component: setup_component_1.SetupComponent },
                 { path: 'tracker', component: tracker_component_1.TrackerComponent },
+                { path: 'arcade', component: arcade_component_1.ArcadeComponent },
                 { path: '', redirectTo: 'home', pathMatch: 'full' },
             ], { useHash: true })
         ],
@@ -84,6 +86,7 @@ AppModule = __decorate([
             vivex_component_1.VivexComponent,
             setup_component_1.SetupComponent,
             dev_nav_component_1.DevNavComponent,
+            arcade_component_1.ArcadeComponent,
             tracker_component_1.TrackerComponent,
             footer_component_1.FooterComponent,
             studios_component_1.StudiosComponent,

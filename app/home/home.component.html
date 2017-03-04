@@ -1,9 +1,11 @@
 <div class="home-comp">
     <vive-carousel></vive-carousel>
     <div class="banners">
-        <div class="banner bnr1">
-            TRY VIVE TODAY
-        </div>
+        <a href="http://locator.vive.com">
+            <div class="banner bnr1">
+                TRY VIVE TODAY
+            </div>
+        </a>
         <a [routerLink]="['/tracker']">
             <div class="banner bnr2">
                 VIVE TRACKER
@@ -15,12 +17,16 @@
             </div>
         </a>
         <div class="banner bnr4">
-            <div class="inner-banner bnr5">
-                <p>VIVEPORT DEVELOPER PORTAL</p>
-            </div>
-            <div class="inner-banner bnr6">
-                <p>VIVE STUDIOS</p>
-            </div>
+            <a [routerLink]="['/developers']">
+                <div class="inner-banner bnr5">
+                    <p>VIVEPORT DEVELOPER PORTAL</p>
+                </div>
+            </a>
+            <a [routerLink]="['/studios']">
+                <div class="inner-banner bnr6">
+                    <p>VIVE STUDIOS</p>
+                </div>
+            </a>
         </div>
     </div>
 
@@ -48,10 +54,12 @@
             </div>
         </div>
         <div class="explore-2">
-            <div class="explore2-1">
-                <p>SHOP VIVE ACCESSORIES</p>
+            <a [routerLink]="['/accessories']">
+                <div class="explore2-1">
+                    <p>SHOP VIVE ACCESSORIES</p>
 
-            </div>
+                </div>
+            </a>
             <div class="explore2-2">
                 <p>VIVE STATEMENT REGARDING STEAMVR</p>
             </div>

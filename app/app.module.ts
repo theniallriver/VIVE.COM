@@ -38,6 +38,7 @@ import { StudiosComponent }          from './studios/studios.component';
 import { AudioStrapComponent }       from './audio-strap/audio.component';
 import { SetupComponent }            from './setup/setup.component';
 import { TrackerComponent }          from './tracker/tracker.component';
+import { ArcadeComponent }           from './arcade/arcade.component';
 
 @NgModule({
   imports: [
@@ -59,10 +60,11 @@ import { TrackerComponent }          from './tracker/tracker.component';
       {path: 'experiences',   component: ExperiencesComponent},
       {path: 'installation',  component: InstallationComponent},
       {path: 'certification', component: CertificationComponent},
-      {path: 'dev-tracker',       component: DevTrackerComponent},
+      {path: 'dev-tracker',   component: DevTrackerComponent},
       {path: 'audio',         component: AudioStrapComponent},
       {path: 'setup',         component: SetupComponent},
       {path: 'tracker',       component: TrackerComponent},
+      {path: 'arcade',        component: ArcadeComponent},
       {path: '', redirectTo:'home', pathMatch:'full'},
     ],
       {useHash: true} )],
@@ -75,6 +77,7 @@ import { TrackerComponent }          from './tracker/tracker.component';
       VivexComponent,
       SetupComponent,
       DevNavComponent,
+      ArcadeComponent,
       TrackerComponent,
       FooterComponent,
       StudiosComponent,
