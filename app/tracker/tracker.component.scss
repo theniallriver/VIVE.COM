@@ -8,6 +8,13 @@
      background-image: url('app/assets/images/track-banner.jpg');
      background-position: center;
      background-size: cover;
+     text-align: center;
+     color: white;
+     padding: 100px 20vw;
+ }
+ 
+ img {
+     width: 600px;
  }
  
  .banner2 {
@@ -18,28 +25,84 @@
  }
  
  .gloves {
-     background-image: url('app/assets/images/gloves.png');
-     width: 100px;
-     height: 100px;
+     width: 335px;
+     background-color: #f7f7f7
  }
  
  .gun {
-     background-image: url('app/assets/images/gun.png');
-     width: 100px;
-     height: 100px;
- }
- 
- .footer {
-     background-image: url('app/assets/track-banner3.jpg');
-     height: 500px;
+     width: 335px;
+     background-color: #f7f7f7
  }
  
  h1 {
-     font-family: 'fakt';
+     font-family: 'fakt-blond';
      font-size: 34px;
      line-height: 39px;
+     margin-bottom: 80px;
+     strong {
+         font-family: 'fakt-bold';
+     }
+ }
+ 
+ p {
+     font-family: 'fakt-blond';
+     font-size: 18px;
+     line-height: 28px;
  }
  
  .content {
      padding: 0 10vw;
+     color: #3c3c3c;
+ }
+ 
+ .banner2 {
+     text-align: center;
+     img {
+         position: relative;
+         top: 50px;
+     }
+ }
+ 
+ h6 {
+     font-family: "fakt-blond";
+     font-size: 14px;
+     line-height: 28px;
+ }
+ 
+ .vidpic {
+     margin: 100px 0;
+     .vid {
+         width: 65%;
+         display: inline-block;
+         margin: -2px;
+         height: 0;
+         padding-bottom: 65%;
+         background: none;
+         vertical-align: top;
+         float: left;
+         video {
+             width: 50vw;
+         }
+     }
+ }
+ 
+ .footer {
+     margin-top: 100px;
+     background-image: url('app/assets/track-banner3.jpg');
+     background-position: center;
+     background-size: cover;
+     height: 450px;
+     color: #3c3c3c;
+     .image {
+         width: 45vw;
+         float: left;
+         text-align: right;
+         img {
+             width: 400px;
+         }
+     }
+     .bottomright {
+         text-align: center;
+         padding: 80px 100px;
+     }
  }
